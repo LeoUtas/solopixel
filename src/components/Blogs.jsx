@@ -9,11 +9,11 @@ import {
     VideoChatMessage,
 } from "./design/Services";
 
-export const Services = () => {
+export const Blogs = () => {
     return (
-        <Section id="services" className="mb-[20vh]">
+        <Section id="blogs" className="overflow-hidden mb-[20vh]">
             <div className="container">
-                <Heading title="Services" text="services available" />
+                <Heading title="Blogs" text="latest blogs" />
 
                 <div className="relative">
                     <div className="relative z-1 grid gap-5 lg:grid-cols-2">
